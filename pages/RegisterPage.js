@@ -68,7 +68,7 @@ async enterLastName(lname) {
     return await this.page.textContent(this.successMessage);
   }
   async getFirstName() {
-    return await this.page.textContent(this.resultFirstName); // ✅ inputValue returns only the value
+    return await this.page.textContent(this.resultFirstName); //  inputValue returns only the value
       }
   async getLastName() {
     return await this.page.textContent(this.resultLastName);
